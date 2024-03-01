@@ -1,6 +1,6 @@
-![kitkit_banner](.github/kitkit.gif)
+![artcli_banner](.github/artcli.gif)
 
-## kitkit
+## artcli
 
 This is a command-line interface (CLI) application, allows users to display ASCII art images of various things. The application is written in JavaScript and can be installed globally using npm.
 
@@ -10,10 +10,10 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your mach
 
 ### Installation
 
-Install KitKit globally using the following command:
+Install artcli globally using the following command:
 
 ```bash
-npm i -g kitkit
+npm i -g artcli
 ```
 
 ### Usage
@@ -21,7 +21,7 @@ npm i -g kitkit
 To display an ASCII art image of an animal, open your terminal and run the following command:
 
 ```bash
-kitkit [add_name]
+artcli [add_name]
 ```
 
 Replace [add_name] with the name of the animal you want to see, such as "cat," "dog," or "bunny."
@@ -29,7 +29,7 @@ Replace [add_name] with the name of the animal you want to see, such as "cat," "
 Example - 
 
 ```bash
-kitkit dog
+artcli dog
 ```
 
 Output - 
@@ -44,53 +44,53 @@ Output -
 
 ```bash
 
-kitkit cat
+artcli cat
 
-kitkit dog
+artcli dog
 
-kitkit bunny
+artcli bunny
 
-kitkit penguin
+artcli penguin
 
-kitkit gun
+artcli gun
 
-kitkit f
+artcli f
 
-kitkit heart
+artcli heart
 
-kitkit stars
+artcli stars
 
-kitkit lol
+artcli lol
 
-kitkit boring_cat
+artcli boring_cat
 
-kitkit whatt
+artcli whatt
 
-kitkit drunk
+artcli drunk
 
-kitkit hero
+artcli hero
 
-kitkit whats_up
+artcli whats_up
 
-kitkit love_you
+artcli love_you
 
-kitkit like
+artcli like
 
-kitkit cry7
+artcli cry7
 
-kitkit lm10
+artcli lm10
 
-kitkit sigma
+artcli sigma
 
-kitkit mario
+artcli mario
 
-kitkit lots_of_cats
+artcli lots_of_cats
 
-kitkit gun
+artcli gun
 
-kitkit creamy
+artcli creamy
 
-kitkit roblox
+artcli roblox
 
 ```
 - check out [lists.txt](lists.txt) file.
@@ -103,22 +103,22 @@ Feel free to contribute to the project by adding more animals or improving the e
 
 Update package is available - 
 ```bash
-npm update -g kitkit
+npm update -g artcli
 ```
 
 ### Uninstallation
 
-If you ever want to uninstall KitKit, you can use the following command:
+If you ever want to uninstall artcli, you can use the following command:
 
 ```bash
-npm uninstall -g kitkit
+npm uninstall -g artcli
 ```
 
 - but please don't :(
 
 ### Cross-Platform Considerations
 
-The core logic of KitKit is designed to be cross-platform since it is written in JavaScript and relies on Node.js, which is known for its cross-platform compatibility. However, it's important to note that terminal emulators and environments may have different behaviors on various operating systems.
+The core logic of artcli is designed to be cross-platform since it is written in JavaScript and relies on Node.js, which is known for its cross-platform compatibility. However, it's important to note that terminal emulators and environments may have different behaviors on various operating systems.
 
 ### License
 

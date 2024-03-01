@@ -1,20 +1,20 @@
 {
-  "name": "kitkit",
+  "name": "artcli",
   "version": "1.0.0",
-  "description": "A command-line interface (CLI) application named that allows users to display ASCII art images of various things.",
-  "main": "kitkit",
+  "description": "A command-line interface (CLI) application, allows users to display ASCII art images of various things.",
+  "main": "artcli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ASCII_art", "cli_arts", "kitkit"],
+  "keywords": ["ASCII_art", "artcli"],
   "author": "Maruf OVi",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iamovi/kitkit"
+    "url": "https://github.com/iamovi/artcli"
   },
   "bin": {
-    "kitkit": "kitkit"
+    "artcli": "artcli"
   },
   "engines": {
     "node": ">=10.0.0"
