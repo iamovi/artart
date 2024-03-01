@@ -1,6 +1,6 @@
-![artcli_banner](.github/artcli.gif)
+![artart_banner](.github/artart.gif)
 
-## artcli
+## artart
 
 This is a command-line interface (CLI) application, allows users to display ASCII art images of various things. The application is written in JavaScript and can be installed globally using npm.
 
@@ -10,10 +10,10 @@ Make sure you have Node.js and npm (Node Package Manager) installed on your mach
 
 ### Installation
 
-Install artcli globally using the following command:
+Install artart globally using the following command:
 
 ```bash
-npm i -g artcli
+npm i -g artart
 ```
 
 ### Usage
@@ -21,7 +21,7 @@ npm i -g artcli
 To display an ASCII art image of an animal, open your terminal and run the following command:
 
 ```bash
-artcli [add_name]
+artart [add_name]
 ```
 
 Replace [add_name] with the name of the animal you want to see, such as "cat," "dog," or "bunny."
@@ -29,7 +29,7 @@ Replace [add_name] with the name of the animal you want to see, such as "cat," "
 Example - 
 
 ```bash
-artcli dog
+artart dog
 ```
 
 Output - 
@@ -44,53 +44,53 @@ Output -
 
 ```bash
 
-artcli cat
+artart cat
 
-artcli dog
+artart dog
 
-artcli bunny
+artart bunny
 
-artcli penguin
+artart penguin
 
-artcli gun
+artart gun
 
-artcli f
+artart f
 
-artcli heart
+artart heart
 
-artcli stars
+artart stars
 
-artcli lol
+artart lol
 
-artcli boring_cat
+artart boring_cat
 
-artcli whatt
+artart whatt
 
-artcli drunk
+artart drunk
 
-artcli hero
+artart hero
 
-artcli whats_up
+artart whats_up
 
-artcli love_you
+artart love_you
 
-artcli like
+artart like
 
-artcli cry7
+artart cry7
 
-artcli lm10
+artart lm10
 
-artcli sigma
+artart sigma
 
-artcli mario
+artart mario
 
-artcli lots_of_cats
+artart lots_of_cats
 
-artcli gun
+artart gun
 
-artcli creamy
+artart creamy
 
-artcli roblox
+artart roblox
 
 ```
 - check out [lists.txt](lists.txt) file.
@@ -103,22 +103,22 @@ Feel free to contribute to the project by adding more animals or improving the e
 
 Update package is available - 
 ```bash
-npm update -g artcli
+npm update -g artart
 ```
 
 ### Uninstallation
 
-If you ever want to uninstall artcli, you can use the following command:
+If you ever want to uninstall artart, you can use the following command:
 
 ```bash
-npm uninstall -g artcli
+npm uninstall -g artart
 ```
 
 - but please don't :(
 
 ### Cross-Platform Considerations
 
-The core logic of artcli is designed to be cross-platform since it is written in JavaScript and relies on Node.js, which is known for its cross-platform compatibility. However, it's important to note that terminal emulators and environments may have different behaviors on various operating systems.
+The core logic of artart is designed to be cross-platform since it is written in JavaScript and relies on Node.js, which is known for its cross-platform compatibility. However, it's important to note that terminal emulators and environments may have different behaviors on various operating systems.
 
 ### License
 
