@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+const animals = require('./pics');
+
+const displayAnimalImage = (animal) => {
+  const selectedAnimal = animals[animal.toLowerCase()];
+
+  if (selectedAnimal) {
+    console.log(selectedAnimal);
+  } else {
+    console.log('Sorry, no image available for that animal.');
+  }
+};
+
+const userInput = process.argv.slice(2).join(' '); // Capture all arguments after the script name
+if (!userInput) {
+  console.log('Please provide an animal name after the "kitkit" command.');
+} else {
+  displayAnimalImage(userInput);
+}
