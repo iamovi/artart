@@ -2,7 +2,7 @@
 
 ## kitkit
 
-This is a command-line interface (CLI) application named that allows users to display ASCII art images of various things. The application is written in JavaScript and can be installed globally using npm.
+This is a command-line interface (CLI) application, allows users to display ASCII art images of various things. The application is written in JavaScript and can be installed globally using npm.
 
 ### Prerequisites
 
