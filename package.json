@@ -1,6 +1,6 @@
 {
   "name": "artart",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A command-line interface (CLI) application, allows users to display ASCII art images of various things.",
   "main": "artart",
   "scripts": {

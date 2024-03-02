@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
+const { exec } = require('child_process');
 const animals = require('./pics');
+const packageInfo = require('./package.json');
 
 const displayAnimalImage = (animal) => {
   const selectedAnimal = animals[animal.toLowerCase()];
@@ -12,9 +14,43 @@ const displayAnimalImage = (animal) => {
   }
 };
 
-const userInput = process.argv.slice(2).join(' '); // Capture all arguments after the script name
-if (!userInput) {
-  console.log('Please provide an animal name after the "kitkit" command.');
+const showVersion = () => {
+  console.log(`artart v${packageInfo.version}`);
+  console.log('----------->');
+  console.log(`Made by ${packageInfo.author}.`);
+};
+
+const listAnimals = () => {
+  console.log('Available arts:');
+  Object.keys(animals).forEach(animal => {
+    console.log(`artart ${animal}`);
+  });
+};
+
+const checkForUpdate = () => {
+  exec('npm show artart version', (error, stdout) => {
+    if (!error) {
+      const latestVersion = stdout.trim();
+      const currentVersion = packageInfo.version;
+
+      if (currentVersion !== latestVersion) {
+        console.log('\n'); // Add this line for a line break
+        console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>');
+        console.log(`BOOM 💥 A new v${latestVersion} is available.\nPlease update using "npm update -g artart" :)`);
+      }
+    }
+  });
+};
+
+const userInput = process.argv.slice(2);
+if (userInput.length === 0) {
+  console.log('Please provide an art name after the "artart" command.');
+} else if (userInput[0] === '-v' || userInput[0] === '--version') {
+  showVersion();
+} else if (userInput[0] === '--list') {
+  listAnimals();
 } else {
-  displayAnimalImage(userInput);
+  displayAnimalImage(userInput.join(' '));
 }
+
+checkForUpdate();

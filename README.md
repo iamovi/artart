@@ -40,6 +40,14 @@ Output -
   /   (_____/
   /_____/   U
 ```
+
+---
+
+- To see all available arts list - 
+```bash
+artart --list
+```
+
 #### All available ats name gives below - 
 
 ```bash
@@ -76,7 +84,7 @@ artart love_you
 
 artart like
 
-artart cry7
+artart cr7
 
 artart lm10
 
